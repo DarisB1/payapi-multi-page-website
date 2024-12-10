@@ -1,0 +1,32 @@
+.first-sec {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.first-phone {
+    display: flex;
+    align-items: center;
+    transform: translate(15%, -40%);
+}
+
+h1 {
+    color: var(--secondary-san-juan-blue);
+    font-size: var(--h3-big-size);
+    font-weight: var(--font-weight-regular);
+    line-height: var(--h4-line-height);
+    letter-spacing: -0.25px;
+
+}
+
+p {
+    color: var(--secondary-light-san-juan-blue);
+    font-family: "Public Sans", sans-serif;
+}
+
+.lien-contact {
+    text-decoration: none;
+    font-weight: var(--font-weight-bold);
+    color: var(--secondary-light-san-juan-blue);
+    font-family: "Public Sans", sans-serif;
+}

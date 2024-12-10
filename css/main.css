@@ -44,6 +44,9 @@
 
 }
 
+body {
+    background-color: #eef3f9;
+}
 
 header {
     display: flex;
@@ -60,11 +63,7 @@ nav {
     font-family: var(--p-font-family);
 }
 
-.first-phone {
-    display: flex;
-    align-items: center;
-    transform: translate(15%, -40%);
-}
+
 
 @media screen and (min-width: 768px) {
     nav {

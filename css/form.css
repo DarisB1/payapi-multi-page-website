@@ -16,6 +16,16 @@
     --error-border-bottom: 1px solid #FE8081;
 }
 
-input {
-    padding: var(--padding-text-field);
+.input-mail {
+    border-radius:  99px;
+    padding:  10px 50px 10px 50px;
+    border: none;
+    background-color: #fff;
+    box-shadow: 10px 10px 25px -10px #000;
+    margin: 24px 0 16px 0;
+}
+
+input::placeholder {
+    color: var(--normal-state-placeholder);
+    font-family: "Public Sans", sans-serif;
 }
