@@ -36,3 +36,34 @@
     --disabled-state-submit-color: #9da8b1;
     --disabled-state-submit-border: 1px solid #9da8b1;
 }
+
+.primary-normal-state-light {
+    padding: var(--btn-light-padding);
+    border-radius: var(--border-radius);
+    border: var(--normal-state-dark-border);
+    background-color: var(--normal-state-light-bgcolor);
+    color: var(--btn-light-color);
+    font-size: var(--p-size);
+    font-family: var(--p-font-family);
+}
+
+.primary-normal-state-light:hover {
+    background-color: var(--hover-state-light-bgcolor);
+}
+
+.secondary-normal-state-light {
+    padding: var(--btn-light-padding);
+    border-radius: var(--border-radius);
+    background-color: var(--normal-state-light-bgcolor);
+    color: var(--btn-light-color);
+    font-size: var(--p-size);
+    font-family: var(--p-font-family);
+}
+
+.secondary-normal-state-light:hover {
+    background-color: var(--hover-state-light-bgcolor);
+}
+
+@media screen and (min-width: 1024px) {
+    
+}

@@ -37,4 +37,72 @@
     --p-size: 15px;
     --p-font-family: "Public sans", sans-serif;
     --p-line-height: 28px;
+
+    --font-weight-bold: bold;
+    --font-weight-regular: 400;
+    --font-weight-medium: 600;
+
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2.5rem 1.5rem 8rem 1.5rem;
+    background-color: var(--secondary-san-juan-blue-opacity);
+    border-radius: 0 0 50% 50%;
+}
+
+nav {
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    font-family: var(--p-font-family);
+}
+
+.first-phone {
+    display: flex;
+    align-items: center;
+    transform: translate(15%, -40%);
+}
+
+@media screen and (min-width: 768px) {
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+
+    ul {
+        display: flex;
+        gap: 0 12px;
+        list-style: none;
+    }
+
+    a {
+        text-decoration: none;
+        color: var(--secondary-san-juan-blue);
+        opacity: 70%;
+        font-weight: var(--font-weight-bold);
+    }
+
+    .menu-burger {
+        display: none;
+    }
+
+    .first-phone {
+        transform: translate(90%, -40%);
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    header {
+        background-color: #fff;
+        padding: 2.5rem 10rem;
+    }
+
+    .first-phone {
+        transform: translate(450%, -40%);
+    }
 }
