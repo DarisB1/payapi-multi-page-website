@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Chango&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jua&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=League+Spartan:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Chango&family=DM+Serif+Display:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jua&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=League+Spartan:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap');
+
+:root{
+    font-family: "Public Sans", sans-serif;
+    font-family: "DM Serif Display", serif;
+    --primary-dark-pink: #ba4270;
+    --primary-link-water-white: #fbfcfe;
+    --secondary-san-juan-blue: #36536b;
+    --secondary-san-juan-blue-opacity: #36536b45;
+    --secondary-mirage-blue: #1b262f;
+    --secondary-charm-pink-actives: #da6b97;
+    --secondary-light-san-juan-blue: #6c8294;
+
+    --hgroup-weight : 400;
+
+    --h1-large-size: 72px;
+    --h1-large-line-height: 72px;
+
+    --h1-small-size: 56px;
+    --h1-small-line-height: 56px;
+
+    --h2-size: 48px;
+    --h2-line-height: 56px;
+
+    --h3-big-size: 32px;
+    --h3-big-line-height: 40px;
+
+    --h3-small-size: 18px;
+    --h3-small-weight: 700;
+    --h3-font-family: "Public sans", sans-serif;
+    --h3-small-line-height: 25px;
+
+    --h4-size: 24px;
+    --h4-line-height: 32px;
+
+    --p-size: 15px;
+    --p-font-family: "Public sans", sans-serif;
+    --p-line-height: 28px;
+}

@@ -1,0 +1,38 @@
+:root {
+    --border-radius: 99px;
+    --normal-state-light-bgcolor: #BA4270;
+    --btn-light-color: #FFFFFF;
+    --btn-light-padding: 16px 24.5px 14px 26.5px;
+    --hover-state-light-bgcolor: #DA6D97;
+    --disabled-state-light-bgcolor: #DCA1B7;
+
+    --secondary-dark-padding: 16px 32px 14px 32px;
+
+    --normal-state-dark-bgcolor: #1B262F;
+    --normal-state-dark-color: #FFFFFF;
+    --normal-state-dark-border: 1px solid #FFFFFF;
+
+    --hover-state-dark-bgcolor: #FFFFFF;
+    --hover-state-dark-color: #1B262F;
+    --hover-state-dark-border: 1px solid #FFFFFF;
+
+
+    --disabled-state-dark-bgcolor: #1B262F;
+    --disabled-state-dark-color: #8d9097;
+    --disabled-state-dark-border: 1px solid #8d9097;
+
+    --secondary-submit-padding: 16px 25px 14px 28px;
+
+    --normal-state-submit-bgcolor: #FFFFFF;
+    --normal-state-submit-color: #36536B;
+    --normal-state-submit-border: 1px solid #36536B;
+
+    --hover-state-submit-bgcolor: #36536B;
+    --hover-state-submit-color: #FFFFFF;
+    --hover-state-submit-border: 1px solid #36536B;
+
+
+    --disabled-state-submit-bgcolor: #FFFFFF;
+    --disabled-state-submit-color: #9da8b1;
+    --disabled-state-submit-border: 1px solid #9da8b1;
+}

@@ -1,0 +1,17 @@
+:root {
+    --padding-text-field: 0px 201px 64px 20px;
+    --normal-state-placeholder: #9ba9b4;
+    --normal-state-border-bottom: 1px solid #9ba9b4;
+
+    --active-state-placeholder: #36536B;
+    --active-state-border-bottom: 1px solid #36536B;
+
+    --normal-state-name-placeholder: #9ba9b4;
+    --normal-state-name-border-bottom: 1px solid #9ba9b4;
+
+    --active-state-name-placeholder: #36536B;
+    --active-state-name-border-bottom: 1px solid #36536B;
+
+    --error-placeholder: #FE8081;
+    --error-border-bottom: 1px solid #FE8081;
+}
