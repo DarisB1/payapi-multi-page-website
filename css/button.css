@@ -51,19 +51,24 @@
 .primary-normal-state-light:hover {
     background-color: var(--hover-state-light-bgcolor);
 }
-/* 
-.secondary-normal-state-light {
-    padding: var(--btn-light-padding);
-    border-radius: var(--border-radius);
-    background-color: var(--normal-state-light-bgcolor);
-    color: var(--btn-light-color);
-    font-size: var(--p-size);
-    font-family: var(--p-font-family);
+
+.div-lien-about {
+    width: 45%;
+    margin: auto;
 }
 
-.secondary-normal-state-light:hover {
-    background-color: var(--hover-state-light-bgcolor);
-} */
+.a-about {
+    background-color: var(--normal-state-dark-bgcolor);
+    color: var(--normal-state-dark-color);
+    border: var(--normal-state-dark-border);
+    border-radius: var(--border-radius);
+    padding: var(--secondary-dark-padding);
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    margin-top: 60px;
+    font-family: "Public sans", serif;
+}
 
 @media screen and (min-width: 768px) {
 

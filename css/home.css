@@ -36,6 +36,19 @@ nav {
     font-family: "Public Sans", sans-serif;
 }
 
+.sec-partenaire {
+    background-color: var(--secondary-mirage-blue);
+    padding-bottom: 80px;
+}
+
+.div-partenaire {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 39px;
+    padding: 80px 48px 0 48px;
+    margin-bottom: 56px;
+}
+
 
 @media screen and (min-width: 768px) {
     nav {

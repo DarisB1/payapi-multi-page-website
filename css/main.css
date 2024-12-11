@@ -58,8 +58,17 @@ p {
     color: var(--secondary-light-san-juan-blue);
     font-family: "Public Sans", sans-serif;
     margin-top: 1.5rem;
+    text-align: center;
+    padding: 0 14px;
 }
 
+h2 {
+    text-align: center;
+    color: var(--primary-link-water-white);
+    font-size: var(--h3-big-size);
+    font-weight: var(--font-weight-regular);
+    line-height: var(--h4-line-height);
+}
 
 @media screen and (min-width: 768px) {
     h1 {
