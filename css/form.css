@@ -16,9 +16,15 @@
     --error-border-bottom: 1px solid #FE8081;
 }
 
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
 .input-mail {
     border-radius:  99px;
-    padding:  10px 50px 10px 50px;
+    padding:  15px 50px 15px 20px;
     border: none;
     background-color: #fff;
     box-shadow: 10px 10px 25px -10px #000;
@@ -28,4 +34,20 @@
 input::placeholder {
     color: var(--normal-state-placeholder);
     font-family: "Public Sans", sans-serif;
+}
+
+@media screen and (min-width: 768px) {
+    form {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        width: 50%;
+        margin: auto;
+    }
+
+    #input-btn {
+        position: absolute;
+        top: 25%;
+        right: 0%;
+    }
 }

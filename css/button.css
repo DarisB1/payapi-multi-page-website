@@ -79,6 +79,6 @@
     
     .primary-normal-state-light:hover {
         background-color: var(--hover-state-light-bgcolor);
-        font-family: "DM";
+        font-family: var(--p-font-family);
     }
 }

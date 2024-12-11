@@ -1,3 +1,22 @@
+body {
+    background-color: #eef3f9;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2.5rem 1.5rem 8rem 1.5rem;
+    background-color: var(--secondary-san-juan-blue-opacity);
+    border-radius: 0 0 50% 50%;
+}
+
+nav {
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    font-family: var(--p-font-family);
+}
+
 .first-sec {
     display: flex;
     flex-direction: column;
@@ -6,22 +25,8 @@
 
 .first-phone {
     display: flex;
-    align-items: center;
     transform: translate(15%, -40%);
-}
 
-h1 {
-    color: var(--secondary-san-juan-blue);
-    font-size: var(--h3-big-size);
-    font-weight: var(--font-weight-regular);
-    line-height: var(--h4-line-height);
-    letter-spacing: -0.25px;
-
-}
-
-p {
-    color: var(--secondary-light-san-juan-blue);
-    font-family: "Public Sans", sans-serif;
 }
 
 .lien-contact {
@@ -29,4 +34,65 @@ p {
     font-weight: var(--font-weight-bold);
     color: var(--secondary-light-san-juan-blue);
     font-family: "Public Sans", sans-serif;
+}
+
+
+@media screen and (min-width: 768px) {
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+
+    ul {
+        display: flex;
+        gap: 0 12px;
+        list-style: none;
+    }
+
+    a {
+        text-decoration: none;
+        color: var(--secondary-san-juan-blue);
+        opacity: 70%;
+        font-weight: var(--font-weight-bold);
+    }
+
+    .menu-burger {
+        display: none;
+    }
+
+    .div-firstPhone {
+        display: flex;
+        justify-content: center;
+    }
+
+    .first-phone {
+        transform: translate(15%, -40%);
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    header {
+        background-color: #eef3f9;
+        padding: 2.5rem 10rem;
+    }
+
+    .first-phone {
+        transform: translate(200%, 0%);
+    }
+
+    main {
+        position: relative;
+    }
+
+    .div-firstPhone {
+        display: flex;
+        position: absolute;
+        right: 50%;
+    }
+
+    .div-h1 {
+        width: 60%;
+    }
 }
