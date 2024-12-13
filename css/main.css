@@ -81,6 +81,7 @@ h3 {
     font-size: var(--h3-big-size);
     font-weight: var(--font-weight-regular);
     line-height: var(--h4-line-height);
+    margin-bottom: 24px;
 }
 
 .Our {
