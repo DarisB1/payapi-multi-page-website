@@ -126,6 +126,10 @@ nav {
         text-align: center;
         margin-left: 56px;
     }
+
+    .sec-solution {
+        flex-direction: row;
+    }
 }
 
 @media screen and (min-width: 1024px) {
@@ -186,5 +190,9 @@ nav {
         align-items: center;
         text-align: start;
         width: 40%;
+    }
+
+    .sec-solution {
+        flex-direction: row;
     }
 }
