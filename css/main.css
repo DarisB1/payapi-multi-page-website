@@ -76,7 +76,7 @@ h2 {
     line-height: var(--p-line-height);
 }
 
-h3 {
+.h3-fonctionnalités {
     color: var(--secondary-san-juan-blue);
     font-size: var(--h3-big-size);
     font-weight: var(--font-weight-regular);
@@ -92,7 +92,22 @@ h3 {
     font-family: "Public Sans", sans-serif;
 }
 
+.h3-solution {
+    margin: 2rem 0 1rem 0;
+    font-size: var(--h3-small-size);
+    font-weight: var(--font-weight-medium);
+    line-height: var(--h3-small-line-height);
+    color: var(--secondary-san-juan-blue);
+    font-family: "Public Sans", sans-serif;
+}
 
+.p-solution {
+    font-size: var(--p-size);
+    font-weight: var(--font-weight-regular);
+    color: var(--secondary-light-san-juan-blue);
+    line-height: var(--p-line-height);
+    font-family: "Public Sans", sans-serif;
+}
 
 @media screen and (min-width: 768px) {
     h1 {
@@ -105,7 +120,7 @@ h3 {
         margin: auto;
     }
 
-    h3 {
+    .h3-fonctionnalités {
         font-size: var(--h2-size);
     }
     
@@ -134,7 +149,7 @@ h3 {
         margin: 0;
     }
 
-    h3 {
+    .h3-fonctionnalités {
         font-size: var(--h2-size);
     }
     
