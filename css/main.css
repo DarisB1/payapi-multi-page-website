@@ -44,8 +44,6 @@
 
 }
 
-
-
 h1 {
     color: var(--secondary-san-juan-blue);
     font-size: var(--h3-big-size);
@@ -54,12 +52,11 @@ h1 {
     letter-spacing: -0.25px;
 }
 
-p {
+.have {
     color: var(--secondary-light-san-juan-blue);
     font-family: "Public Sans", sans-serif;
     margin-top: 1.5rem;
     text-align: center;
-    padding: 0 14px;
 }
 
 h2 {
@@ -70,9 +67,40 @@ h2 {
     line-height: var(--h4-line-height);
 }
 
+.p-today {
+    color: var(--secondary-light-san-juan-blue);
+    font-family: "Public Sans", sans-serif;
+    margin-top: 1.5rem;
+    text-align: center;
+    padding: 24px 14px;
+    line-height: var(--p-line-height);
+}
+
+h3 {
+    color: var(--secondary-san-juan-blue);
+    font-size: var(--h3-big-size);
+    font-weight: var(--font-weight-regular);
+    line-height: var(--h4-line-height);
+}
+
+.Our {
+    color: var(--secondary-light-san-juan-blue);
+    font-size: var(--p-size);
+    font-weight: var(--font-weight-regular);
+    line-height: var(--p-line-height);
+    margin-bottom: 80px;
+}
+
+
+
 @media screen and (min-width: 768px) {
     h1 {
         width: 80%;
+        margin: auto;
+    }
+
+    .p-today {
+        width: 65%;
         margin: auto;
     }
 }
@@ -84,5 +112,15 @@ h2 {
         line-height: var(--h2-line-height);
         margin: auto;
         text-align: start;
+    }
+
+    h2 {
+        text-align: start;
+    }
+
+    .p-today {
+        width: 70%;
+        text-align: start;
+        margin: 0;
     }
 }

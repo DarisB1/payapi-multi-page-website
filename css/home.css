@@ -38,17 +38,27 @@ nav {
 
 .sec-partenaire {
     background-color: var(--secondary-mirage-blue);
-    padding-bottom: 80px;
+    padding: 80px 24px;
 }
 
 .div-partenaire {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 39px;
-    padding: 80px 48px 0 48px;
     margin-bottom: 56px;
 }
 
+.div-h2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.sec-fonctionnalités {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
 
 @media screen and (min-width: 768px) {
     nav {
@@ -83,6 +93,12 @@ nav {
     .first-phone {
         transform: translate(15%, -40%);
     }
+
+    .div-partenaire {
+        grid-template-columns: 1fr 1fr 1fr;
+        text-align: center;
+        margin-left: 56px;
+    }
 }
 
 @media screen and (min-width: 1024px) {
@@ -106,6 +122,24 @@ nav {
     }
 
     .div-h1 {
+        width: 60%;
+    }
+
+    .sec-partenaire {
+        background-color: var(--secondary-mirage-blue);
+        padding-bottom: 80px;
+        display: flex;
+        flex-direction: row-reverse;
+        padding: 100px 163px;
+        margin-top: 5rem;
+    }
+
+    .div-partenaire {
+        transform: scale(1);
+        margin: auto;
+    }
+
+    .div-h2 {
         width: 60%;
     }
 }
