@@ -195,4 +195,11 @@ nav {
     .sec-solution {
         flex-direction: row;
     }
+
+    .sec-démo {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 10rem 5rem 10rem;
+    }
 }

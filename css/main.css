@@ -109,6 +109,14 @@ h2 {
     font-family: "Public Sans", sans-serif;
 }
 
+.h2-démo {
+    text-align: center;
+    color: var(--secondary-san-juan-blue);
+    font-size: var(--h3-big-size);
+    font-weight: var(--font-weight-regular);
+    line-height: var(--h4-line-height);
+}
+
 @media screen and (min-width: 768px) {
     h1 {
         width: 80%;
@@ -159,6 +167,10 @@ h2 {
 
     .p-solution {
         width: 70%;
+    }
+
+    .h2-démo {
+        font-size: var(--h2-size);
     }
 
 }
