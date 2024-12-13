@@ -60,6 +60,17 @@ nav {
     text-align: center;
 }
 
+.sec-fonctionnalités-last {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.div-h3 {
+    text-align: center;
+}
+
 @media screen and (min-width: 768px) {
     nav {
         display: flex;
@@ -141,5 +152,23 @@ nav {
 
     .div-h2 {
         width: 60%;
+    }
+
+    .sec-fonctionnalités {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .sec-fonctionnalités-last {
+        flex-direction: row-reverse;
+        justify-content: center;
+    }
+
+    .div-h3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: start;
+        width: 40%;
     }
 }
