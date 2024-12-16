@@ -1,3 +1,29 @@
 h1 {
-    
+    width: 70%;
+    text-align: center;
+    margin: auto;
+}
+
+.sec-mission {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 40px;
+}
+
+.h2-about {
+    color: #36536B;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 1rem;
+}
+
+.p-about {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #6C8294;
+    width: 90%;
+    margin: auto;
 }
