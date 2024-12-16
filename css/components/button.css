@@ -38,14 +38,14 @@
 }
 
 .primary-normal-state-light {
-    padding:  10px 90px 10px 90px;
-    border-radius: var(--border-radius);
-    border: var(--normal-state-dark-border);
-    background-color: var(--normal-state-light-bgcolor);
-    color: var(--btn-light-color);
-    font-size: var(--p-size);
-    font-family: var(--p-font-family);
-    
+        padding:  10px 90px 10px 90px;
+        border-radius: var(--border-radius);
+        border: var(--normal-state-dark-border);
+        background-color: var(--normal-state-light-bgcolor);
+        color: var(--btn-light-color);
+        font-size: var(--p-size);
+        font-family: var(--p-font-family);
+        
 }
 
 .primary-normal-state-light:hover {

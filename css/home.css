@@ -8,6 +8,7 @@ header {
     padding: 2.5rem 1.5rem 8rem 1.5rem;
     background-color: var(--secondary-san-juan-blue-opacity);
     border-radius: 0 0 50% 50%;
+    margin-bottom: 10rem;
 }
 
 nav {
@@ -25,8 +26,10 @@ nav {
 
 .first-phone {
     display: flex;
-    transform: translate(15%, -40%);
-
+    position: absolute;
+    top: 13%;
+    left: 30%;
+    width: 130px;
 }
 
 .lien-contact {
@@ -123,7 +126,7 @@ footer {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        width: 100%;
+        width: 80%;
     }
 
     ul {
@@ -149,7 +152,11 @@ footer {
     }
 
     .first-phone {
-        transform: translate(15%, -40%);
+        display: flex;
+        position: absolute;
+        top: 18%;
+        left: 40%;
+        width: 130px;
     }
 
     .div-partenaire {
@@ -197,7 +204,11 @@ footer {
     }
 
     .first-phone {
-        transform: translate(200%, 0%);
+        display: flex;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        width: 130px;
     }
 
     main {
