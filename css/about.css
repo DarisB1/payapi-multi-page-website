@@ -27,3 +27,118 @@ h1 {
     width: 90%;
     margin: auto;
 }
+
+.img-about {
+    width: 100%;
+    height: 30vh;
+    margin-top: 3rem;
+    background: cover / center url("../assets/PEOPLE.jpg");
+}
+
+.div-about-ul{
+    margin: 3rem 0;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+}
+
+.li-nom-clé {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #36536B;
+    font-family: "Public sans", sans-serif;
+}
+
+.li-chiffre {
+    font-size: 56px;
+    font-weight: 400;
+    color: #BA4270;
+    line-height: 72px;
+}
+
+hgroup {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 80%;
+    margin-bottom: 2rem;
+    margin: auto;
+}
+
+.h3-about {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #36536B;
+}
+
+.hgroup-p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #6C8294;
+    margin: 16px 0 48px 0;
+}
+
+@media screen and (min-width: 768px) {
+
+    h1 {
+        width: 45%;
+    }
+
+    .div-h2-about {
+        display: flex;
+        width: 80%;
+        margin: auto;
+    }
+
+    .p-about {
+        width: 72%;
+        text-align: start;
+    }
+
+    .div-li-chiffre {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    hgroup {
+        display: flex;
+        flex-direction: row;
+        width: 80%;
+        margin: auto;
+        justify-content: space-between;
+
+    }
+
+    .hgroup-p {
+        width: 71%;
+        text-align: start;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+    h1 {
+        width: 50%;
+        font-size: 56px;
+        text-align: start;
+    }
+
+    .div-li-chiffre {
+        text-align: start;
+    }
+
+    hgroup {
+        display: flex;
+        flex-direction: row;
+        width: 80%;
+        margin: auto;
+        justify-content: space-between;
+    }
+}
