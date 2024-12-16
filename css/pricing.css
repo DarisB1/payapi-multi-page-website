@@ -1,0 +1,101 @@
+h1 {
+	text-align: center;
+}
+
+article {
+    margin-bottom: 80px;
+    display: flex;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.sec-pricing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    text-align: center;
+}
+
+hr {
+    width: 90%;
+}
+
+.h2-pricing {
+    color: #BA4270;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 1rem;
+}
+
+.p-pricing {
+    width: 90%;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #6C8294;
+}
+
+.h3-pricing {
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 72px;
+    color: #36536B;
+}
+
+.ul-pricing {
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+	gap: 10px;
+}
+
+li {
+	display: flex;
+	align-items: center;
+    gap: 0 10px;
+}
+
+.liPasCheck {
+    opacity: 50%;
+    margin-left: 18%;
+}
+
+.a-pricing {
+    text-decoration: none;
+    color: #36536B;
+    border: 1px solid #36536B;
+    border-radius: 99px;
+    padding: 1rem;
+    font-family: "DM Serif Display", serif;
+}
+
+@media screen and (min-width: 768px) {
+
+    h1 {
+        font-size: 48px;
+    }
+    article {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+    h1 {
+        text-align: start;
+        width: 84%;
+    }
+
+    article {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sec-pricing {
+        align-items: start;
+        text-align: start;
+    }
+}

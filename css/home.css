@@ -8,7 +8,7 @@ header {
     padding: 2.5rem 1.5rem 8rem 1.5rem;
     background-color: var(--secondary-san-juan-blue-opacity);
     border-radius: 0 0 50% 50%;
-    margin-bottom: 10rem;
+    margin-bottom: 3rem;
 }
 
 nav {
@@ -26,10 +26,8 @@ nav {
 
 .first-phone {
     display: flex;
-    position: absolute;
-    top: 13%;
-    left: 30%;
-    width: 130px;
+    justify-content: center;
+    width: 500px;
 }
 
 .lien-contact {
@@ -47,8 +45,10 @@ nav {
 .div-partenaire {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 39px;
+    gap: 42px;
     margin-bottom: 56px;
+    align-items: stretch;
+    justify-items: center;
 }
 
 .div-h2 {
