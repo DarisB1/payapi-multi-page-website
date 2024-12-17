@@ -51,6 +51,26 @@ input::placeholder {
     background-color: #EDF3F8;
 }
 
+.allInput:invalid {
+    border-bottom: 1px solid #ff0000;
+}
+
+.error {
+    display: none;
+    color: #ff0000;
+    font-family: "Public Sans", sans-serif;
+    
+}
+
+.allInput:invalid + .error {
+    display: block;
+}
+
+
+.allInput:invalid::placeholder {
+    color: #ff0000;
+}
+
 #message {
     padding: 0 0 64px 20px;
     border: none;
@@ -58,6 +78,14 @@ input::placeholder {
     opacity: 50%;
     background-color: #EDF3F8;
     font-family: "Public Sans", sans-serif;    
+}
+
+#message:invalid  {
+    border-bottom: 1px solid#ff0000;
+}
+
+#message:invalid::placeholder  {
+    color: #ff0000;
 }
 
 #message::placeholder {
