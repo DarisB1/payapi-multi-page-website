@@ -137,8 +137,12 @@ hgroup {
     hgroup {
         display: flex;
         flex-direction: row;
-        width: 80%;
+        width: 50%;
         margin: auto;
         justify-content: space-between;
+    }
+
+    .div-about-ul{
+        margin: 3rem 10rem;
     }
 }

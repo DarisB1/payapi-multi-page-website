@@ -5,7 +5,7 @@ h1 {
 
 article {
     margin-bottom: 80px;
-    display: flex;
+    display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
 }
@@ -79,7 +79,7 @@ li {
     }
     article {
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
     }
 }
 
@@ -93,6 +93,7 @@ li {
     article {
         align-items: center;
         justify-content: center;
+        margin: 0 10rem;
     }
 
     .sec-pricing {

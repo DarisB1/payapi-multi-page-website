@@ -1,0 +1,10 @@
+.h1-contact {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+
+.form-contact {
+    margin: 2.5rem 1.5rem;
+    gap: 20px;
+}
