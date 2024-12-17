@@ -36,6 +36,35 @@ input::placeholder {
     font-family: "Public Sans", sans-serif;
 }
 
+.form-contact {
+    display: flex;
+    flex-direction: column;
+    margin: 2.5rem 1.5rem;
+    gap: 25px;
+}
+
+.allInput {
+    padding: 0 0 16px 20px;
+    border: none;
+    border-bottom: 1px solid #36536B;
+    opacity: 50%;
+    background-color: #EDF3F8;
+}
+
+#message {
+    padding: 0 0 64px 20px;
+    border: none;
+    border-bottom: 1px solid #36536B;
+    opacity: 50%;
+    background-color: #EDF3F8;
+    font-family: "Public Sans", sans-serif;    
+}
+
+#message::placeholder {
+    color: #36536B;
+    opacity: 50%;
+}
+
 @media screen and (min-width: 768px) {
     form {
         position: relative;
@@ -50,10 +79,23 @@ input::placeholder {
         top: 25%;
         right: 0%;
     }
+
+    .form-contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+        width: 70%;
+        margin: auto;
+    }
 }
 
 @media screen and (min-width: 1024px) {
     .last-form {
         margin: 0;
+    }
+
+    .form-contact {
+        margin-bottom: 92px;
     }
 }

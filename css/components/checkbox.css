@@ -6,3 +6,31 @@
 
     --check-box-error: #f5f6f8;
 }
+
+#checkbox {
+    color: var(--check-box-activate);
+    width: 30px;
+    height: 30px;
+}
+
+#label-checkbox-contact {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #36536B;
+    line-height: 25px;
+}
+
+@media screen and (min-width: 768px) {
+    #label-checkbox-contact {
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    #label-checkbox-contact {
+        width: 80%;
+    }
+}

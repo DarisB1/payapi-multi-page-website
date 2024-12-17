@@ -70,6 +70,19 @@
     font-family: "Public sans", serif;
 }
 
+.div-submit-contact {
+    width: 20%;
+}
+
+#submit-contact {
+    padding: 1rem 3rem;
+    border-radius: 99px;
+    border: 1px solid var(--disabled-state-dark-bgcolor);
+    color: var(--disabled-state-dark-bgcolor);
+    font-family: "Public Sans", sans-serif;
+    font-weight: 400;
+}
+
 @media screen and (min-width: 768px) {
 
     .primary-normal-state-light {

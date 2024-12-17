@@ -1,10 +1,69 @@
 .h1-contact {
+    margin: auto;
     width: 80%;
     text-align: center;
-    margin: auto;
+    margin-bottom: 2.5rem;
 }
 
-.form-contact {
-    margin: 2.5rem 1.5rem;
+.h2-contact {
+    color: #36536B;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    opacity: 70%;
+
+}
+
+.div-grid-contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-items: center;
     gap: 20px;
+    margin: 2rem 0 5rem 0;
+}
+
+
+@media screen and (min-width: 768px) {
+    .h1-contact {
+        width: 53%;
+        text-align: center;
+        margin: auto;
+        font-size: 48px;
+        line-height: 50px;
+    }
+
+    .h2-contact {
+        width: 60%;
+        margin-top: 64px;
+    }
+
+    .div-grid-contact {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .h1-contact {
+        width: 70%;
+        font-size: 56px;
+        line-height: 50px;
+        text-align: start;
+        margin: 2.5rem 5rem;
+    }
+
+    .h2-contact {
+        width: 80%;
+        text-align: start;
+        margin-top: 64px;
+        font-size: 24px;
+        font-weight: 400;
+    }
+
+    .sec-total-contact {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
 }
