@@ -8,7 +8,7 @@
 }
 
 #checkbox {
-    background-color: var(--check-box-activate);
+    accent-color: var(--check-box-activate);
     width: 30px;
     height: 30px;
 }
